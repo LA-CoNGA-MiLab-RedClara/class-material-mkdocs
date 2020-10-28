@@ -1,0 +1,85 @@
+site_name: ATLAS Open Data 13 TeV Documentation
+repo_url:
+# Contents
+nav:
+    - Home: 'index.md'
+    - Introduction:
+      - The Large Hadron Collider: 'atlas/lhc.md'
+      - The ATLAS Detector: 'atlas/experiment.md'
+      - Collision events seen by ATLAS: 'atlas/atlas_events.md'
+    - 13 TeV Open Datasets:
+      - Overview: 'datasets/intro.md'
+      - Available physics objects: 'datasets/objects.md'
+      - Full list of branches and variables: 'datasets/dataset13.md'
+      - MC simulation samples: 'datasets/mc.md'
+      - ROOT files & collections: 'datasets/files.md'
+      - General capabilities of the released 13 TeV dataset: 'datasets/capabilities.md'
+      - Limitations of the released 13 TeV dataset: 'datasets/limitations.md'
+      - Evolution of the ATLAS Open Data: 'datasets/evolution.md'
+    - Physics analysis examples:
+      - Overview of physics analysis examples: 'physics/intro.md'
+      - Brief introduction to the physics of the Higgs boson: 'physics/the-higgs-boson.md'
+      - SM W-boson production in the single-lepton final state: 'physics/SL1.md'
+      - Single-top-quark production in the single-lepton final state: 'physics/SL2.md'
+      - Top-quark pair production in the single-lepton final state: 'physics/SL3.md'
+      - SM Z-boson production in the two-lepton final state: 'physics/DL1.md'
+      - SM Higgs boson production in the H &rarr; WW decay channel in the two-lepton final state: 'physics/DL2.md'
+      - Search for supersymmetric particles in the two-lepton final state: 'physics/DL3.md'
+      - SM WZ diboson production in the three-lepton final state: 'physics/TL1.md'
+      - SM ZZ diboson production in the four-lepton final state: 'physics/FL1.md'
+      - SM Higgs boson production in the H &rarr; ZZ decay channel in the four-lepton final state: 'physics/FL2.md'
+      - SM Z-boson production in the two-tau-lepton final state: 'physics/TT.md'
+      - Search for BSM Z' &rarr; tt in the single-lepton boosted final state: 'physics/SLB.md'
+      - SM Higgs boson production in the H &rarr; yy decay channel in the two-photon final state: 'physics/YY.md'
+    - Analysis framework:
+      - Introduction: 'frameworks/intro.md'
+      - C++ based framework: 'frameworks/cpp.md'
+      - Python uproot based framework: 'frameworks/uproot.md'
+      - PyROOT-based framework: 'frameworks/pyroot.md'
+      - RDataFrame-based framework: 'frameworks/RDF.md'
+    - Jupyter ROOTbooks:
+      - Introduction: 'notebooks/intro.md'
+      - Analysis examples: 'notebooks/analysis-examples.md'
+      - C++ framework interface: 'notebooks/framework-interface.md'
+    - Virtual Machines:
+      - Introduction: 'vm/index.md'
+      - VirtualBox installation: 'vm/vb.md'
+      - 13 TeV ATLAS Open Data virtual machine installation : 'vm/vm.md'
+    - Data Visualisation:
+      - Data visualisation: 'visualization/index.md'
+      - The Higgs Boson: 'visualization/the-higgs-boson.md'
+      - ATLAS events: 'visualization/atlas_events.md'
+      - Analyses: 'visualization/analyses.md'
+      - Data and Simulated Data: 'visualization/data-and-simulated-data_13TeV.md'
+      - Histogram Analyser (simulation only): 'visualization/the_display_histograms_13TeV.md'
+      - Histogram Analyser (simulation + data): 'visualization/histogram-analyser-2_13TeV.md'
+      - Separate Signals: 'visualization/separate_signals_13TeV.md'
+      - Find the Higgs: 'visualization/find_the_higgs_2_13TeV.md'
+    - Glossary:
+      - Glossary: 'atlas/GLOSSARY.md'
+# Theme
+theme:
+  name: null
+  custom_dir: 'material'
+  language: en
+  palette:
+    primary: black
+    accent: black
+  font:
+    text: Ubuntu
+    code: Roboto Mono
+  logo: "images/outline_80_white.png"
+  feature:
+    tabs: true
+  static_templates:
+    - 404.html
+  favicon: 'assets/images/favicon.ico'
+  search_index_only: true
+use_directory_urls: false
+##
+extra_javascript: 
+    - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+markdown_extensions:
+    - toc:
+        toc_depth : "1-1"
+    - mdx_math
