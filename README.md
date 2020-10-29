@@ -10,8 +10,8 @@ Get it (install using pip) as mentioned in: https://github.com/mitya57/python-ma
 
 You can follow this instruction:
 ``` shell
-git clone la-conga-class-material.git
-cd la-conga-class-material 
+git https://github.com/LA-CoNGA-MiLab-RedClara/class-material-mkdocs.git
+cd class-material-mkdocs 
 mkdocs serve
 ```
 To put it in App, you need to generate HTML by:
