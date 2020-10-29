@@ -63,7 +63,7 @@ theme:
   custom_dir: 'material'
   language: en
   palette:
-    primary: black
+    primary: white
     accent: black
   font:
     text: Ubuntu
@@ -77,9 +77,10 @@ theme:
   search_index_only: true
 use_directory_urls: false
 ##
-extra_javascript: 
+extra_javascript:
     - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
 markdown_extensions:
     - toc:
-        toc_depth : "1-1"
+#        toc_depth : "1-1"
+        permalink : true
     - mdx_math
