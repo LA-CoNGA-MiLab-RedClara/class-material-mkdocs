@@ -1,22 +1,31 @@
-![path](images/detector_background.png)
+<CENTER>![path](http://laconga.redclara.net/wp-content/uploads/2020/06/logo_LAconga-oficial-01-1.png)</CENTER>
 
-# **The ATLAS Open Data 13 TeV Documentation**
+<CENTER>
+# **Cursos en LA-CoNGA physics** 2021-2022
 
-The aim of the 13 TeV ATLAS Open Data is to **provide data and tools** to high school, undergraduate and graduate students, as well as teachers and lecturers, to help educate and train them in analysis techniques used in experimental particle physics. Sharing data collected by the ATLAS experiment aims to generate excitement and enthusiasm for fundamental research, inspiring physicists of the future.
-
-The following documentation provides **introductory material and detailed information** for a wide audience about the ATLAS experiment, the released 13 TeV ATLAS Open Datasets and their visualisation, the analysis frameworks and ROOTbooks, as well as the virtual machine usage instructions.
+The aim of the 13 TeV ATLAS Open Data is to **provide data and tools** to high school, undergraduate and graduate students, as well as teachers and lecturers, to help educate and train them in analysis techniques used in experimental particle physics.
+</CENTER>
 
 ---
 
-### General information
+### Cómo navegar esta guía
+
+| <h4><b>Teoría: Altas Energías & Sistemas Complejos</b></h4> | <h4><b>Ciencia de Datos</b></h4> | <h4><b>Instrumentación & Detectores</b></h4> |
+| :---        |    :----:   |          ---: |
+| [![teoria](http://opendata.atlas.cern/DataAndTools/pictures/handmade_WAnalysis.png)](modulo-teoria/intro.html) | [![datos](http://opendata.atlas.cern/DataAndTools/pictures/handmade_software.png)](modulo-datos/intro.html) | [![instruments](http://opendata.atlas.cern/DataAndTools/pictures/handmade_event_display.png)](modulo-instrumentacion/intro.html)|
+
+
+---
+### Información General
 
 + The 13 TeV ATLAS Open Data is hosted in the [ATLAS Open Data website](http://opendata.atlas.cern), as well as in the [CERN Open Data website](http://opendata.cern.ch/) and are attributed separate DOI's that allow their citation.
 + The main ATLAS-approved document meant to be a guide on the content, properties, capabilities and limitations of the released datasets is: [ATL-OREACH-PUB-2020-001](https://cds.cern.ch/record/2707171), please cite accordingly.
 
----
 
-### Information hosted in this web-page###
+[![esquema](../images/la-conga-figures-june-2020.png)](../index.html)
 
+
+#### Detalles de las secciones
 + [ATLAS experiment](atlas/experiment.md): learn about ATLAS: the largest multi-purpose particle detector located at CERN.
 
 + [13 TeV Open Datasets](datasets/intro.md): find detailed information about the released 13 TeV proton-proton collision data and simulation samples.
