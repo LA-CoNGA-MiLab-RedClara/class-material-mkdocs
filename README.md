@@ -1,19 +1,20 @@
 # Get Started
 
 ## Requirement:
-* MkDocs:
+### MkDocs:
 
-** Get it in https://www.mkdocs.org/
+### Get it in https://www.mkdocs.org/
 
-** Follow the instructions in: 
-http://opendata.atlas.cern/new/tutorials/hackathon-2019/document/
+** Follow the instructions below in section **Building your project documentation**
 
 **For Latex-kind and Maths**
 
 * python-markdown-math
 Get it (install using pip) as mentioned in: https://github.com/mitya57/python-markdown-math
 
-Once you get those installed:
+
+**Once you get those installed**:
+
 
 You can follow this instruction:
 ``` shell
