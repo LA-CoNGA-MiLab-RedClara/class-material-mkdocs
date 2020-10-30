@@ -132,7 +132,7 @@ INFO    -  Cleaning site directory
 
 Open up `http://127.0.0.1:8000/` in your browser, and you'll see the pages you cloned being displayed:
 
-![pic3](https://github.com/veritasalice/MarkdownPhotos/blob/master/yourDoc3.png?raw=true)
+![pic3](https://github.com/LA-CoNGA-MiLab-RedClara/class-material-mkdocs/blob/master/docs/images/la-conga.png?raw=true)
 
 Use the editor you like to edit the files in `docs` and your changes will be displayed when saving them.
 
