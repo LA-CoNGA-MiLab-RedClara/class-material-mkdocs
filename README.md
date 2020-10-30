@@ -18,8 +18,8 @@ Get it (install using pip) as mentioned in: https://github.com/mitya57/python-ma
 
 You can follow this instruction:
 ``` shell
-git https://github.com/LA-CoNGA-MiLab-RedClara/class-material-mkdocs.git
-cd class-material-mkdocs 
+git clone https://github.com/LA-CoNGA-MiLab-RedClara/class-material-mkdocs.git
+cd class-material-mkdocs
 mkdocs serve
 ```
 
@@ -106,13 +106,9 @@ mkdocs, version 0.15.3
 
 * Clone this documentation to your device by git
 
-Clone with ssh:
-```
-git clone ssh://git@gitlab.cern.ch:7999/atlas-outreach-data-tools/hackathon-docs.git
-```
 Clone with https:
 ```
-git clone https://gitlab.cern.ch/atlas-outreach-data-tools/hackathon-docs.git
+git clone git clone https://github.com/LA-CoNGA-MiLab-RedClara/class-material-mkdocs.git
 ```
 
 In your `hackathon-docs` folder, you will see a configuration file named `mkdocs.yml`, and a folder named `docs` that will contain your documentation source files.
@@ -154,7 +150,7 @@ In Git, every developer's working copy of the code is also a repository that can
 
 **The working flow of Git:**
 
-* Initialize your repository with `git init[directory]`
+* Initialise your repository with `git init[directory]`
 * Clone a repository onto your local machine with `git clone [URL]`
 * Edit the docs using Mkdocs
 * Stage all changes for the next conmmit with `git add [directory]`
@@ -167,6 +163,4 @@ In Git, every developer's working copy of the code is also a repository that can
 ![gitFlow](https://i.stack.imgur.com/ODFYa.png)
 
 
-Reference to [git cheet sheet](file:///C:/Users/User/Downloads/atlassian-git-cheatsheet.pdf) for details
-
-
+Reference to [git cheat sheet](file:///C:/Users/User/Downloads/atlassian-git-cheatsheet.pdf) for details
