@@ -109,9 +109,11 @@ mkdocs, version 0.15.3
 Clone with https:
 ```
 git clone git clone https://github.com/LA-CoNGA-MiLab-RedClara/class-material-mkdocs.git
+
+cd class-material-mkdocs
 ```
 
-In your `hackathon-docs` folder, you will see a configuration file named `mkdocs.yml`, and a folder named `docs` that will contain your documentation source files.
+In your `docs` folder, you will see a configuration file named `mkdocs.yml`, and a folder named `docs` that will contain your documentation source files.
 
 ![folder1](https://github.com/veritasalice/MarkdownPhotos/blob/master/folder1.png?raw=true)
 
@@ -122,7 +124,7 @@ Right now the `docs` folder just contains all the documentation pages, such as  
 
 MkDocs comes with a built-in dev-server that lets you preview your documentation as you work on it. Make sure you're in the same directory as the `mkdocs.yml` configuration file, and then start the server by running the `mkdocs serve` command:
 ```
-C:\Users\User\hackathon\hackathon-docs>mkdocs serve
+C:\Users\User\class-material-mkdocs>mkdocs serve
 INFO    -  Building documentation...
 INFO    -  Cleaning site directory
 [I 190705 15:13:53 server:296] Serving on http://127.0.0.1:8000
