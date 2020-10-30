@@ -2,11 +2,14 @@
 
 ## Requirement:
 * MkDocs:
+
 ** Get it in https://www.mkdocs.org/
+
 ** Follow the instructions in: 
 http://opendata.atlas.cern/new/tutorials/hackathon-2019/document/
 
-For Latex-kind and Maths
+**For Latex-kind and Maths**
+
 * python-markdown-math
 Get it (install using pip) as mentioned in: https://github.com/mitya57/python-markdown-math
 
